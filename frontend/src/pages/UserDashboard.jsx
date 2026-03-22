@@ -98,9 +98,9 @@ export default function UserDashboard() {
         onChange={e => setPriority(e.target.value)}
         className="flex-1 sm:flex-none px-3 py-3 rounded-xl border border-slate-200 bg-white text-sm text-slate-700 outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm cursor-pointer"
       >
-        <option value="low">🟢 Low</option>
-        <option value="medium">🟡 Medium</option>
-        <option value="high">🔴 High</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
       </select>
       <button
         type="submit"
